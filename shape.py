@@ -10,3 +10,13 @@ class Shape:
 
     def area(self):
         return 0
+
+
+class Circle(Shape):
+    """圆形，用半径 r 描述，面积 = 3.14 * r * r。"""
+
+    def __init__(self, r):
+        self.r = r
+
+    def area(self):
+        return 3.14 * self.r * self.r
