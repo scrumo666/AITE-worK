@@ -116,8 +116,9 @@ feat: 新增 Square 子类并重写 area() 计算正方形面积
 feat: 主程序统一遍历列表调用 area() 演示多态
 docs: 补充 README 说明完整代码思路
 test: 添加运行输出文本与截图
+docs: 回填 Git 仓库地址
 ```
 
 ## 六、仓库地址
 
-Git 仓库链接：`<在此填写本平台仓库地址>`
+Git 仓库链接：<https://github.com/scrumo666/AITE-worK>
