@@ -20,3 +20,13 @@ class Circle(Shape):
 
     def area(self):
         return 3.14 * self.r * self.r
+
+
+class Square(Shape):
+    """正方形，用边长 side 描述，面积 = side * side。"""
+
+    def __init__(self, side):
+        self.side = side
+
+    def area(self):
+        return self.side * self.side
