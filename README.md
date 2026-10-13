@@ -11,7 +11,6 @@
 shape_polymorphism/
 ├── shape.py         # Shape 基类 + Circle / Square 子类
 ├── main.py          # 主程序：列表 + 遍历调用 area()，体现多态
-├── screenshot.png   # 程序运行输出截图
 ├── output.txt       # 程序运行输出文本（可复制核对）
 └── README.md        # 本文档
 ```
@@ -89,8 +88,6 @@ Square 的面积 = 9
 
 - `Circle(2)`：`3.14 × 2 × 2 = 12.56`
 - `Square(3)`：`3 × 3 = 9`
-
-运行输出截图见 [screenshot.png](screenshot.png)。
 
 ## 四、Git 提交记录（开发历史）
 
